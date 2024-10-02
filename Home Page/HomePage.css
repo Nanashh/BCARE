@@ -1,0 +1,235 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    /* background: linear-gradient(180deg, #00FFFF 0%, #FFFFFF 29.69%, #FFFFFF 64.58%, #00FEFE 84.37%); */
+}
+
+.image {
+    position: absolute;
+    width: 100rem;
+    height: 40rem;
+    left: 9rem;
+    top: 9rem;
+}
+
+.blue {
+    position: absolute;
+    width: 80rem;
+    height: 40rem;
+    left: 20rem;
+    top: 9rem;
+
+    background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, #53DEFD 16.15%, #52E0FF 83.33%, rgba(217, 217, 217, 0) 100%);
+}
+
+.mid-logo {
+    position: absolute;
+    width: 36rem;
+    height: 36rem;
+    left: 22rem;
+    top: -5rem;
+}
+
+.tulisan1 {
+    position: absolute;
+    width: 967px;
+    height: 55px;
+    left: 11rem;
+    top: 19rem;
+
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.tulisan2 {
+    position: absolute;
+    width: 745px;
+    height: 44px;
+    left: 18rem;
+    top: 27rem;
+
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.galang {
+    position: absolute;
+    width: 338px;
+    height: 105px;
+    left: 35rem;
+    top: 50rem;
+    background: #BFEAF5;
+    border-radius: 22px;
+    border: none;
+
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 72px;
+    text-align: center;
+    cursor: pointer;
+
+    color: #357BDF;
+}
+
+.galang a, .donasi a{
+    color: #357BDF;
+
+}
+
+.galang:hover, a:hover{
+    background-color: #82AAE3;
+    transition: 600ms;
+    color: white;
+}
+
+.donasi {
+    position: absolute;
+    width: 338px;
+    height: 105px;
+    left: 65rem;
+    top: 50rem;
+    background: #BFEAF5;
+    border-radius: 22px;
+    border: none;
+
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 72px;
+    text-align: center;
+    cursor: pointer;
+
+    color: #357BDF;
+}
+
+.donasi:hover, a:hover{
+    background-color: #82AAE3;
+    color: white;
+    transition: 600ms;
+}
+
+.bottom {
+    position: absolute;
+    width: 119.46rem;
+    height: 240px;
+    left: -1rem;
+    top: 60rem;
+
+    background: #4C6970;
+}
+
+.gmail {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 106.5rem;
+    top: 10.3rem;
+}
+
+.fb {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 101.5rem;
+    top: 10rem;
+}
+
+.twt {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 97.5rem;
+    top: 10.4rem;
+}
+
+.tiktok {
+    position: absolute;
+    width: 92px;
+    height: 52px;
+    left: 92.4rem;
+    top: 10.8rem;
+}
+
+.IG {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 89.5rem;
+    top: 10.8rem;
+}
+
+.WA {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 85.3rem;
+    top: 10.8rem;
+}
+
+.contact {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 98rem;
+    top: 6.5rem;
+
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.word {
+    position: absolute;
+    width: 320px;
+    height: 32px;
+    left: 90.2rem;
+    top: 2rem;
+
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 26px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.mail {
+    position: absolute;
+    width: 266px;
+    height: 89px;
+    left: 36px;
+    top: 5rem;
+
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}

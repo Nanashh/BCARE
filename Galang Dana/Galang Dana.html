@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galang Dana</title>
+    <link rel="stylesheet" href="../Navbar/navbar.css">
+    <link rel="stylesheet" href="Galang Dana.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../Home Page/HomePage.html" class="navbarlogo">
+            <img src="../Home Page/BCARE Logo.png" alt="">
+        </a>
+        <div id="navbarleft">
+            <a href="../Home Page/HomePage.html">Home</a>
+            <a href="Galang Dana.html">Galang Dana</a>
+            <a href="../Donasi/donate.html">Donasi</a>
+        </div>
+    </nav>
+
+    <section class="new">
+        <main class="content">
+            <div class="newraise">
+                <a href="#addraised">
+                    <h4>RAISE NEW FUNDS</h4>
+                    <img src="../Galang Dana/raisedphotos/Raise New Funds.jpg">
+                </a>
+            </div>
+        </main>
+    </section>
+
+    <section class="raisedlist">
+       <div class="title">
+        <h2>Fund Raised</h2>
+       </div>
+       <div class="sectioncenter">
+        <article class="raiseditem">
+            <img src="./raisedphotos/4.png" class="photo" alt="">
+            <div class="iteminfo">
+                <header>
+                <h4>Bantu Kakek June Doe menyambung hidup</h4>
+                <h5 class="collected">Rp 12.000.000/100.000.000</h5>
+                </header>
+                <p class="itemtext">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, nemo.
+                </p>
+                <h5 class="marker">Active</h5>
+            </div>
+        </article>
+       </div>
+    </section>
+
+    <section id="addraised">
+        <div class="title">
+            <h2>Raise New Funds</h2>
+        </div>
+        <form id="newraised">
+            <div class="left">
+                <div class="inputraised">
+                    <label for="namapenggalang">Nama Penggalang Dana</label>
+                    <input type="text" id="namapenggalang" required>
+                </div>
+                <div class="inputraised">
+                    <label for="typepenggalang">Jenis Penggalangan Dana</label>
+                    <select name="tipe" id="typepenggalang" required>
+                        <option value=""></option>
+                        <option value="bencana">Bencana alam</option>
+                        <option value="medis">Bantuan medis</option>
+                        <option value="anak">Bayi, balita, anak sakit</option>
+                        <option value="orangtua">Orang tua & Lansia</option>
+                    </select>
+                </div>
+                <div class="inputraised">
+                    <label for="noktp">Nomor KTP</label>
+                    <input type="tel" id="noktp" required>
+                </div>
+                <div class="inputraised">
+                    <label for="imgktp">Foto KTP</label>
+                    <input type="file" id="imgktp" required>
+                </div>
+                <div class="inputraised">
+                    <label for="nohp">Nomor HP</label>
+                    <input type="tel" id="nohp" required>
+                </div>
+                <div class="inputraised">
+                    <label for="alamat">Alamat Penggalang Dana</label>
+                    <input type="text" id="alamat" required>
+                </div>
+                <div class="inputraised">
+                    <label for="typerek">Tipe Rekening</label>
+                    <select name="tipe" id="typerek" required>
+                        <option value=""></option>
+                        <option value="BCA">BCA</option>
+                        <option value="Mandiri">MANDIRI</option>
+                        <option value="BNI">BNI</option>
+                        <option value="BRI">BRI</option>
+                        <option value="BSI">BSI</option>
+                    </select>
+                </div>
+                <div class="inputraised">
+                    <label for="norekening">Nomor Rekening</label>
+                    <input type="tel" id="norekening"required>
+                </div>
+            </div>
+            <div class="right">
+                <div class="inputraised">
+                    <label for="namapenerima">Nama Penerima</label>
+                    <input type="text" id="namapenerima" required>
+                </div>
+                <div class="inputraised">
+                    <label for="kondisi">Judul Penggalangan Dana</label>
+                    <input type="text" id="kondisi" required>
+                </div>
+                <div class="inputraised">
+                    <label for="imgcondition">Foto Kondisi (Rekam Medis,Keadaan,dsb)</label>
+                    <input type="file" id="imgcondition" required>
+                </div>
+                <div class="inputraised">
+                    <label for="estimated">Estimasi Dana Diperlukan</label>
+                    <input type="text" id="estimated" required>
+                </div>
+                <div class="inputraised">
+                    <label for="waktupenggalangan">Waktu Penggalangan Dana(Hari)</label>
+                    <input type="number" id="waktupenggalangan" required>
+                </div>
+                <div class="inputraised">
+                    <label for="desc">Deskripsi Kondisi Tambahan</label>
+                    <textarea name="" id="desc" cols="30" rows="10" required></textarea>
+                </div>
+                <div class="submit">
+                    <button id="buttons">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <script src="Galang Dana.js"></script>
+</body>
+</html>

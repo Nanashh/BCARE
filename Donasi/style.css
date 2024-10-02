@@ -1,0 +1,415 @@
+/* Header */
+body{
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: fixed;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.14);
+    background-color: white;
+}
+
+
+.navbarlogo img{
+    height: 15vh;
+    margin-top: 2vh;
+}
+
+
+.navbar #navbarleft a{
+    color: #357BDF;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    margin: 0 1vh;
+    padding: 1vh 1vh;
+    background-color: #BFEAF5;
+    border-radius: 10px;
+}
+
+.navbar #navbarleft a:hover{
+    background-color: #82AAE3;
+    color: white;
+    transition: 600ms;
+}
+
+
+.content{
+    position: relative;
+    width: 100vw;
+    height: 150vw;
+}
+
+#donasi-urgent{
+    position: absolute;
+    width: 470px;
+    height: 120px;
+    top: 130px;
+    left: 5vw;
+
+    background: #D20000;
+    box-shadow: 5px 9px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+#donasi-urgent-text{
+    position: absolute;
+    top: 35px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+#donasi-urgent img{
+    position: absolute;
+    top: 15px;
+    left: 370px;
+}
+
+#fcs-div{
+    position: absolute;
+    width: 600px;
+    height: 90px;
+    top: 280px;
+    left: 4vw;
+}
+
+.fcs-box{
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    left: 15px;
+    top: 10px;
+    cursor: pointer;
+
+    background: #91D8E4;
+    border-radius: 50px;
+}
+
+.fcs-box img{
+    position: absolute;
+    width: 35px;
+    top: 3px;
+    left: 9px;
+}
+
+.fcs-text{
+    width: 220px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+#filter{
+    z-index: 99;
+    position: absolute;
+}
+
+#category{
+    z-index: 99;
+    position: absolute;
+    left: 250px;
+}
+
+#sort{
+    z-index: 999;
+    position: absolute;
+    left: 490px;
+}
+
+#donasi-content{
+    position: relative;
+    top: 380px;
+    left: 5vw;
+}
+
+.donasi-content-box{
+    position: relative;
+    width: 1350px;
+    height: 320px;
+    margin: 1rem;
+
+    background-color: white;
+    border: 1rem #91D8E4 solid;
+}
+
+.donasi-content-box img{
+    z-index: 50;
+    position: absolute;
+    width: 340px;
+    height: 250px;
+    top: 20px;
+    left: 20px;
+}
+
+.donasi-content-text{
+    z-index: 20;
+    position: absolute;
+    width: 750px;
+    top: 20px;
+    left: 370px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+
+    color: #357BDF;
+}
+
+.sisa-waktu{
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    left: 1110px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.nama-PT{
+    z-index: 2;
+    position: absolute;
+    top: 90px;
+    left: 370px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 22px;
+
+    color: #52E0FF;
+}
+
+.terkumpul{
+    z-index: 1;
+    position: absolute;
+    top: 170px;
+    left: 750px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 29px;
+
+    color: #357BDF;
+}
+
+.dana-jumlah-dana{
+    z-index: 1;
+    position: absolute;
+    top: 210px;
+    left: 550px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+
+.donate-btn{
+    z-index: 1;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top: 250px;
+    left: 1130px;
+
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+
+    color: #FDFDFD;
+    background: #357BDF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+
+/* footer */
+.bottom {
+    position: relative;
+    width: 119.46rem;
+    height: 240px;
+    left: -1rem;
+
+    background: #4C6970;
+}
+
+.gmail {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 106.5rem;
+    top: 10.3rem;
+}
+
+.fb {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 101.5rem;
+    top: 10rem;
+}
+
+.twt {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 97.5rem;
+    top: 10.4rem;
+}
+
+.tiktok {
+    position: absolute;
+    width: 92px;
+    height: 52px;
+    left: 92.4rem;
+    top: 10.8rem;
+}
+
+.IG {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 89.5rem;
+    top: 10.8rem;
+}
+
+.WA {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 85.3rem;
+    top: 10.8rem;
+}
+
+.contact {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 98rem;
+    top: 6.5rem;
+
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.word {
+    position: absolute;
+    width: 320px;
+    height: 32px;
+    left: 90.2rem;
+    top: 2rem;
+
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 26px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.mail {
+    position: absolute;
+    width: 266px;
+    height: 89px;
+    left: 36px;
+    top: 5rem;
+
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}
+
+#fcs-div ul{
+    list-style-type: none;
+}
+
+.dropdown{
+    display: none;
+    z-index: 999;
+    width: 210px;
+    font-family: 'Inter';
+    text-align: center;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,1);
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fcs-box:hover .dropdown{
+    display: block;
+}
+
+
+
+
+
+/* dropbtn */
+
+
+
+.active{
+    background: #357BDF;
+    border-radius: 10px;
+    color: white;
+}
+

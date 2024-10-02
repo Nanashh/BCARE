@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: 0;
+    box-sizing: border-box;
+}
+
+body{
+    transition:ease-in-out 600ms;
+}
+
+.new{
+    min-height: 65vh;
+    display: flex;
+    padding: 1.4rem 7%;
+    align-items: center;
+    justify-content: center;
+}
+
+.new .content{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.new .newraise{
+    overflow: hidden;
+    margin: 1% 0;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.new h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    word-spacing: 1rem;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    z-index: 1;
+    font-family: 'Trebuchet MS';
+}
+
+.new .newraise h4:hover+img{
+    transform: scale(1.3);
+    transition: 600ms;
+    filter: brightness(0.7);
+}
+
+.new .newraise h4:not(hover) + img{
+    transform: scale(1.1); 
+     transition: 600ms; 
+     filter: brightness(0.4);
+}
+
+.new .newraise img{
+    height: 40vh;
+    width: 100%;
+}
+
+.raisedlist{
+    padding: 0.5rem 1rem;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.title h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 5vh;
+    color: #5790DF;
+}
+
+.sectioncenter{
+    width: 95vw;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    column-gap: 0;
+    row-gap: 2rem;
+    justify-items: center;
+    font-family: 'Trebuchet MS';
+}
+
+@media(max-width: 768px){
+    .sectioncenter{
+        grid-template-columns: none;
+    }
+}
+
+.raiseditem{
+    /* justify-items: center; */
+    /* align-items: center; */
+    text-align: center;
+    display: grid;
+    padding: 1rem 1rem;
+    gap: 0.5rem 2rem;
+    width: 20rem;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.raiseditem:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    transition: 600ms;
+}
+.photo{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    display: block;
+}
+
+.iteminfo header{
+    font-size: medium;
+}
+
+.iteminfo h4{
+    margin-bottom: 0.5rem;
+    
+}
+
+.iteminfo header h5{
+    color:#5790DF ;
+}
+
+.itemtext{
+    margin-bottom: 0;
+    padding: 1rem 0;
+    opacity: 0.7;
+}
+
+.iteminfo .marker{
+    font-size: large;
+    background-color: #5790DF;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#addraised{
+    margin: 1% 2%;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS';
+}
+
+#addraised #newraised{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#addraised .left, #addraised .right{
+    width: 48%;
+}
+
+#addraised .input, #addraised .button{
+display: flex;
+flex-direction: column;
+margin: 5% 0;
+}
+
+#addraised form label{
+    font-size: large;
+    padding-left: 1rem;
+}
+
+
+#addraised form #namapenggalang,
+#addraised form #typepenggalang,
+#addraised form #noktp,
+#addraised form #imgktp,
+#addraised form #nohp,
+#addraised form #typerek,
+#addraised form #alamat,
+#addraised form #norekening,
+#addraised form #namapenerima,
+#addraised form #kondisi,
+#addraised form #imgcondition,
+#addraised form #estimated,
+#addraised form #waktupenggalangan,
+#addraised form #desc{
+    font-size: medium;
+    width: 100%;
+    border-style: solid;
+    border-color:#5790DF;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 1% ;
+    padding: 1%;
+    padding-left: 1rem;
+}
+
+
+#addraised form #desc{
+    font-family: 'Trebuchet MS';
+}
+
+#buttons{
+    padding: 2% 4%;
+    border-radius: 20px;
+    background-color: #5790DF;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+#buttons:hover{
+    background-color: #284369;
+}
+
+
+
